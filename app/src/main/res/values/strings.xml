@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Sportyway</string>
+
+    <string name="title_activity_peta_informasi">Map</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Manfaatkan Sampahmu</string>
+    <string name="slide_1_desc">Kumpulkan Semua Sampah Dan Jadikan ampahmu Sebagai Penghasilanmu Dan Buat menjadi Ramah Lingkunan</string>
+
+    <string name="slide_2_title">Daftarkan Di Apliaksi</string>
+    <string name="slide_2_desc">Kumpulkan Semua Sampah Dan Jadikan ampahmu Sebagai Penghasilanmu Dan Buat menjadi Ramah Lingkunan</string>
+
+    <string name="slide_3_title">Dapatkan Keuntungan</string>
+    <string name="slide_3_desc">Kumpulkan Semua Sampah Dan Jadikan ampahmu Sebagai Penghasilanmu Dan Buat menjadi Ramah Lingkunan</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!--Ind-->
+    <string name="id_menu_peta">Informasi Bank Sampah</string>
+    <string name="id_menu_daftarkan">Daftarkan</string>
+    <string name="id_menu_jenis">Tukarkan Sampah</string>
+    <string name="id_menu_history">Riwayat Penukaran</string>
+    <string name="id_menu_profil">Profil</string>
+    <string name="id_menu_setting">Pengaturan</string>
+    <string name="id_menu_hubungi">Hubungi Kami</string>
+    <string name="id_menu_logout">Keluar</string>
+    <!--Ing-->
+    <string name="ing_menu_peta">Information Map</string>
+    <string name="ing_menu_daftarkan">Sign up</string>
+    <string name="ing_menu_jenis">Order</string>
+    <string name="ing_menu_history">Order Progres</string>
+    <string name="ing_menu_profil">Profile</string>
+    <string name="ing_menu_setting">Setting</string>
+    <string name="ing_menu_hubungi">Contact Us</string>
+    <string name="ing_menu_logout">logout</string>
+
+
+    <string name="nama_lain">Nama Lain (Other Name)</string>
+    <string name="deskripsi">Deskripsi (Description)</string>
+    <string name="instruksi">Intruksi (Instruction)</string>
+    <string name="harga">Harga 2 KG (Price 2 KG)</string>
+    <string name="input_berat">Tambah Berat (Input Weight)</string>
+    <string name="loading">Loading...</string>
+
+    <!--Edit Profil-->
+    <string name="profil_nama">Nama Pengguna</string>
+    <string name="profil_email">Email</string>
+    <string name="profil_telepon">Telephone</string>
+    <string name="profil_ktp">No.KTP</string>
+
+    <!--Font Awesome-->
+    <string name="fa_trash">&#xf1f8;</string>
+    <string name="fa_next">&#xf105;</string>
+    <string name="fa_left">&#xf104;</string>
+    <string name="fa_chart">&#xf07a;</string>
+    <string name="fa_time">&#xf017;</string>
+    <string name="fa_home">&#xf015;</string>
+    <string name="fa_pick">&#xf291;</string>
+    <string name="fa_wallet">&#xf283;</string>
+    <string name="fa_email">&#xf003;</string>
+    <string name="fa_password">&#xf023;</string>
+    <string name="fa_user">&#xf2c0;</string>
+    <string name="fa_user_2">&#xf007;</string>
+    <string name="fa_close">&#xf00d;</string>
+    <string name="fa_cek">&#xf00c;</string>
+    <string name="fa_phone">&#xf095;</string>
+    <string name="fa_setting">&#xf013;</string>
+    <string name="fa_history">&#xf1da;</string>
+    <string name="fa_list">&#xf03a;</string>
+    <string name="fa_off">&#xf011;</string>
+    <!--Checkout-->
+    <string name="list_trash">DAFTAR SAMPAH (LIST TRASH)</string>
+    <string name="delevery_to">LOKASI PENJEMPUTAN (PICKUP)</string>
+    <string name="informasi_order">DETAIL INFORMASI</string>
+    <string name="schedule">JADWAL PENJEMPUTAN (SCHEDULE)</string>
+    <string name="payment">TOTAL &amp; PEMBAYARAN (TOTAL &amp; PAYMENT)</string>
+    <string name="money">&#xf0d6; TUNAI (CASH)</string>
+    <string name="bank">&#xf187; TABUNG (WALLET)</string>
+    <string name="location">&#xf041;</string>
+    <string name="remove">&#xf00d;</string>
+    <string name="metode_pembayaran">METODE PEMBAYARAN (PAYMENT)</string>
+    <string name="catatan">&#xf02d;</string>
+    <string name="bank_penjemputan">BANK PENJEMPUTAN</string>
+    <string name="title_activity_navigation">navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

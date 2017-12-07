@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "999670063141",
+    "firebase_url": "https://sportyway-71b69.firebaseio.com",
+    "project_id": "sportyway-71b69",
+    "storage_bucket": "sportyway-71b69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999670063141:android:94d95c1d84fe6e89",
+        "android_client_info": {
+          "package_name": "com.example.asus.sportiway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999670063141-8d05ettugdrfqcbj9j887i2ievee1442.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.sportiway",
+            "certificate_hash": "6510aadabc9ef3eb17c622e4a27e2702c69fe70b"
+          }
+        },
+        {
+          "client_id": "999670063141-nlunlnuhhb3ppdonh9q8ucpoq66skfkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB54VkMhr8OeO2qhhQT_TEUyIqxU4X-5vE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999670063141-nlunlnuhhb3ppdonh9q8ucpoq66skfkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

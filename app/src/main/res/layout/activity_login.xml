@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/abuabu"
+    tools:context="com.example.asus.sportiway.Activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/logo" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp">
+
+        <com.example.asus.sportiway.font.edit_login
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="Email"
+            android:paddingBottom="15dp"
+            android:paddingLeft="48dp"
+            android:paddingRight="8dp"
+            android:paddingTop="12dp"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/text_login"
+            android:textColorHint="@color/text_login"
+            android:textSize="15dp">
+
+            <requestFocus />
+        </com.example.asus.sportiway.font.edit_login>
+
+        <com.example.asus.sportiway.font.text_awesome
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="15dp"
+            android:text="@string/fa_email"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp">
+
+        <com.example.asus.sportiway.font.edit_login
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edit_text"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingBottom="15dp"
+            android:paddingLeft="48dp"
+            android:paddingRight="8dp"
+            android:paddingTop="12dp"
+            android:singleLine="true"
+            android:textColor="@color/text_login"
+            android:textColorHint="@color/text_login"
+            android:textSize="15dp">
+
+        </com.example.asus.sportiway.font.edit_login>
+
+        <com.example.asus.sportiway.font.text_awesome
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="15dp"
+            android:text="@string/fa_password"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_login_selector"
+        android:text="Login"
+        android:textColor="@drawable/btn_text_color" />
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Register Account here !"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ProgressBar
+        android:id="@+id/pg_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="16dp"
+        android:background="#D6D3CF" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/login_google" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/login_fb" />
+</LinearLayout>
